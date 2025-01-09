@@ -26,13 +26,6 @@ const AppContainer = styled.div`
   }
 `;
 
-const Logo = styled.img`
-  width: 45px;
-  height: 45px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-`;
-
 const MainContent = styled.main`
   display: grid;
   grid-template-columns: 1fr 1fr;
