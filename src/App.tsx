@@ -355,27 +355,26 @@ const SocialButtons = styled.div`
 `;
 
 const SocialButton = styled.button`
-  background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 50%, #0a0a0a 100%);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  color: white;
-  font-size: 0.95rem;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  gap: 0.5rem;
+  background: rgba(18, 18, 18, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
 
   .icon {
-    width: 20px;
-    height: 20px;
-    opacity: 0.8;
+    width: 18px;
+    height: 18px;
   }
 
   &:hover {
-    background: linear-gradient(135deg, #323232 0%, #222222 50%, #121212 100%);
-    transform: translateY(-2px);
+    background: rgba(28, 28, 28, 0.95);
+    border-color: rgba(255, 255, 255, 0.2);
   }
 `;
 
