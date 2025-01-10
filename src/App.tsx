@@ -664,7 +664,7 @@ function App() {
           </InfoRow>
           <InfoRow>
             <span className="label">Dev Supply:</span>
-            <span className="value">5%</span>
+            <span className="value">4%</span>
           </InfoRow>
           <InfoRow>
             <span className="label">Ticker:</span>
