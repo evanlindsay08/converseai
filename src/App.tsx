@@ -660,7 +660,7 @@ function App() {
         <ContractInfo>
           <InfoRow>
             <span className="label">CA:</span>
-            <span className="value">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+            <span className="value">CQCPTCqB45i5ek9Uze8kwHQjmFDJaGBmxdGnVV7mpump</span>
           </InfoRow>
           <InfoRow>
             <span className="label">Dev Supply:</span>
